@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Guardian</string>
+    <string name="news_title">news title</string>
+    <string name="news_category">category</string>
+    <string name="author">author</string>
+    <string name="date">date</string>
+    <string name="no_browser">no browser</string>
+    <string name="no_connection">no connection</string>
+    <string name="sorry_there_are_no_news_to_display">there are no news</string>
+</resources>

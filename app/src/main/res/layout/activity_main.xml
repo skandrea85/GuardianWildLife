@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:text="@string/news_title" />
+
+    <TextView
+        android:id="@+id/newsCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsTitle"
+        android:paddingTop="@dimen/dim8"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text16"
+        tools:text="@string/news_category" />
+
+
+    <TextView
+        android:id="@+id/newsAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/newsCategory"
+        android:paddingTop="@dimen/dim8"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text12"
+        tools:text="@string/author" />
+
+    <TextView
+        android:id="@+id/newsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/newsCategory"
+        android:paddingTop="@dimen/dim8"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="@dimen/text12"
+        tools:text="@string/date" />
+
+</RelativeLayout>
